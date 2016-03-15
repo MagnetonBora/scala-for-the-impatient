@@ -66,7 +66,7 @@ res5: Char = o
 ```
 
 10. What do the take, drop, takeRight, and dropRight string functions do? What advantage or disadvantage do they have over using substring?
-```
+``` scala
 scala> "hello".take(2)
 res4: String = he
 
