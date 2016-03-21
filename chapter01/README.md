@@ -1,4 +1,4 @@
-1. In the Scala REPL, type 3. followed by the Tab key. What methods can be applied?
+1.In the Scala REPL, type 3. followed by the Tab key. What methods can be applied?
 ``` scala
 scala> 3.
 !=   *   <        ==   >>>            getClass       toChar     toLong     unary_-
@@ -8,7 +8,7 @@ scala> 3.
 ```
 
 
-2. In the Scala REPL, compute the square root of 3, and then square that value. By how much does the result differ from 3? (Hint: The res variables are your friend.)
+2.In the Scala REPL, compute the square root of 3, and then square that value. By how much does the result differ from 3? (Hint: The res variables are your friend.)
 ``` scala
 scala> math.sqrt(3)
 res2: Double = 1.7320508075688772
@@ -18,23 +18,23 @@ res3: Double = 2.9999999999999996
 ```
 
 
-3. Are the res variables val or var?
+3.Are the res variables val or var?
 val
 
 
-4. Scala lets you multiply a string with a number—try out "crazy" * 3 in the REPL. What does this operation do? Where can you find it in Scaladoc?
+4.Scala lets you multiply a string with a number—try out "crazy" * 3 in the REPL. What does this operation do? Where can you find it in Scaladoc?
 ``` scala
 scala> "crazy" * 3
 res4: String = crazycrazycrazy
 ```
 
 
-5. What does 10 max 2 mean? In which class is the max method defined?
+5.What does 10 max 2 mean? In which class is the max method defined?
 选取10和2中较大的那一个
 max定义在Int中
 
 
-6. Using BigInt, compute 2^1024.
+6.Using BigInt, compute 2^1024.
 ``` scala
 scala> val two = BigInt.apply(2)
 two: scala.math.BigInt = 2
@@ -44,7 +44,7 @@ res6: scala.math.BigInt = 179769313486231590772930519078902473361797697894230657
 ```
 
 
-7. What do you need to import so that you can get a random prime as probablePrime(100, Random), without any qualifiers before probablePrime and Random?
+7.What do you need to import so that you can get a random prime as probablePrime(100, Random), without any qualifiers before probablePrime and Random?
 ``` scala
 scala> import scala.math.BigInt.probablePrime
 import scala.math.BigInt.probablePrime
@@ -57,14 +57,14 @@ res2: scala.math.BigInt = 664485341499260982018212482073
 ```
 
 
-8. One way to create random file or directory names is to produce a random BigInt and convert it to base 36, yielding a string such as "qsnvbevtomcj38o06kul". Poke around Scaladoc to find a way of doing this in Scala.
+8.One way to create random file or directory names is to produce a random BigInt and convert it to base 36, yielding a string such as "qsnvbevtomcj38o06kul". Poke around Scaladoc to find a way of doing this in Scala.
 ``` scala
 scala> probablePrime(100, Random).toString(36)
 res3: String = 2panf7xfu0n0c1gm07kv
 ```
 
 
-9. How do you get the first character of a string in Scala? The last character?
+9.How do you get the first character of a string in Scala? The last character?
 ``` scala
 scala> "hello".head
 res4: Char = h
@@ -74,7 +74,7 @@ res5: Char = o
 ```
 
 
-10. What do the take, drop, takeRight, and dropRight string functions do? What advantage or disadvantage do they have over using substring?
+10.What do the take, drop, takeRight, and dropRight string functions do? What advantage or disadvantage do they have over using substring?
 ``` scala
 scala> "hello".take(2)
 res4: String = he
