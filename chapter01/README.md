@@ -11,7 +11,6 @@ scala> 3.
 ``` scala
 scala> math.sqrt(3)
 res2: Double = 1.7320508075688772
-
 scala> res2 * res2
 res3: Double = 2.9999999999999996
 ```
@@ -33,7 +32,6 @@ max定义在Int中
 ``` scala
 scala> val two = BigInt.apply(2)
 two: scala.math.BigInt = 2
-
 scala> two.pow(1024)
 res6: scala.math.BigInt = 179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216
 ```
@@ -42,10 +40,8 @@ res6: scala.math.BigInt = 179769313486231590772930519078902473361797697894230657
 ``` scala
 scala> import scala.math.BigInt.probablePrime
 import scala.math.BigInt.probablePrime
-
 scala> import scala.util.Random
 import scala.util.Random
-
 scala> probablePrime(100, Random)
 res2: scala.math.BigInt = 664485341499260982018212482073
 ```
@@ -60,7 +56,6 @@ res3: String = 2panf7xfu0n0c1gm07kv
 ``` scala
 scala> "hello".head
 res4: Char = h
-
 scala> "hello".last
 res5: Char = o
 ```
@@ -69,13 +64,10 @@ res5: Char = o
 ``` scala
 scala> "hello".take(2)
 res4: String = he
-
 scala> "hello".drop(2)
 res5: String = llo
-
 scala> "hello".takeRight(2)
 res6: String = lo
-
 scala> "hello".dropRight(2)
 res7: String = hel
 ```
