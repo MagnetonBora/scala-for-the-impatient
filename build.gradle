@@ -1,0 +1,14 @@
+allprojects {
+	group = 'net.yidooo.scala-for-the-impatient'
+	version = '1.0-SNAPSHOT'
+}
+
+subprojects {
+	apply plugin: 'scala'
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+    		compile 'org.scala-lang:scala-library:2.11.7'
+	}
+}
